@@ -53,4 +53,20 @@ Can you remember what each of the following does of the top of your head? Write 
 -help gives you help on a certain command that you don't know
 
 
-1.3 Forking and Cloning
+1.4 Forking and Cloning
+
+If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?
+Instructions would be:
+
+Create repository 1) Go to your github profile; 2) click the + in the upper right and select new repository.
+
+Fork repo: 1) navigate to the repo you want to fork and select the fork repo button; 2) select your github profile from the options
+
+Clone repo: 1) access the repo you have cloned from your github profile and copy the link on the right side of the page; 2) using the command line, go to the directory where you want to deposit this information and type 'git clone' and copy the link. 3) hit enter
+
+You would create a fork so that you could do some work and then merge this fork into the original project, which is the point of version control. We don't need to have new projects for each change we make, we have forks that where we do work and then merge them back into the bigger project.
+
+What struggles did you have setting up git and GitHub? What did you learn in the process?
+I didn't really have struggles since dev bootcamp provided instructions for how to do it. I learned that there is actually some use for using the command line since this is how we will interact with git.
+
+I am still confused as to how these directories I create through the command line interact with the interface of my computer. For example, I created a phase-0-curriculum directory to deposit my fork into, but I can't seem to find that now as a folder anywhere on my computer. But I thought a directory was just supposed to be a folder.
